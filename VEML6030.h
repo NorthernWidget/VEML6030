@@ -1,17 +1,16 @@
 /******************************************************************************
-MS5803_I2C.h
-Library for MS5803 pressure sensor.
+VEML6030.h
+Library for VEML6030 Ambient light sensor
 Bobby Schulz @ Northern Widget LLC
-6/26/2014
-https://github.com/sparkfun/MS5803-14BA_Breakout
+5/16/2018
+https://github.com/NorthernWidget/VEML6030
 
-The MS5803 is a media isolated temperature and pressure sensor made by
-Measurment Specialties which can be used to measure either water pressure
-and depth, or baramatric (atmospheric) pressure, and altitude along with that
+The VEML6030 is an integrated ambient light sensor made by Vishay, with an I2C interface. 
+This device has a manually variable gain and integration time. This library was made to allow for
+low level interfacing to the device as well as high level functions like auto-ranging.
 
-"Instruments register only through things they're designed to register.
-Space still contains infinite unknowns."
--Mr. Spock
+"Some people seemed to get all sunshine, and some all shadow…"
+-Louisa May Alcott
 
 Distributed as-is; no warranty is given.
 ******************************************************************************/

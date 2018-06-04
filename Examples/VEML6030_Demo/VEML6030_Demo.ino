@@ -10,6 +10,7 @@ void setup() {
 
 void loop() {
   ALS.AutoRange(); //Determine the best gain and integration time values for given light intensity
+  delay(1000); //Wait for new value to be taken, up to 1 second
   Serial.print("Lux = ");
   Serial.print(ALS.GetLux());  //Get compensated UVA value
   Serial.print(" White = ");
